@@ -1,0 +1,9 @@
+-
+  model: 登录模块
+  title: 登录成功，获取token
+  path : /cgi-bin/gettoken
+  method: get
+  params :
+    corpid : wwaf0cf3643e92eb30
+    corpsecret : zE2797_kGEjXq1DAqPocvaDor1kAVg9IEG-EI0c4x30
+  expect_errcode: 0

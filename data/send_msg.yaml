@@ -1,0 +1,15 @@
+-
+  model: 发送企业微信消息
+  title: 发送成功
+  path : /cgi-bin/message/send
+  method: post
+  headers:
+    Content-Type : application/json
+  data :
+      touser: Huangmengqing
+      msgtype: text
+      agentid: 1000002
+      text:
+        content: 可以啦
+      safe: 0
+  expect_errcode: 0
